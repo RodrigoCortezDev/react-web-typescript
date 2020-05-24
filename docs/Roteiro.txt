@@ -1,0 +1,11 @@
+- Criando projeto com:
+    -> create-react-app NOME --template=typescript
+
+- Instalando ESLINT para tratamentos de codigo:
+    -> yarn add eslint -D
+    -> yarn eslint --init   (quando perguntar se quer instalar com NPM colocar não e copiar as dependencias e mandar instalar com YARN)
+    * criar o arquivo .eslint.ignore e alterar .eslintrc.json
+    -> yarn add eslint-import-resolver-typescript -D  (Faz com que o Eslint entenda o typescript)
+
+- Instalando o Pretier (formatador de codigo)
+    -> yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
