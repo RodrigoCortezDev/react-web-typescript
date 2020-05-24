@@ -20,3 +20,9 @@
 
 - Colocando a font ROBOTO
     *  Acessar o Google fonts, escolher os tipos de fontes e pegar o LINK e jogar abaixo do Title no Index.html dentro da pasta "public"
+
+- Biblioteca que faz escurecimento ou clareamento automatico
+    -> yarn add polished
+
+- Icones no React web
+    -> yarn add react-icons
