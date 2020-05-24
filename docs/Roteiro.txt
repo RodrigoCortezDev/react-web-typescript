@@ -13,3 +13,10 @@
 - Instalando manipulador de rotas
     -> yarn add react-router-dom
     -> yarn add @types/react-router-dom
+
+- Estilizaçao CSS com StyledComponents
+    -> yarn add styled-components
+    -> yarn add @types/styled-components -D
+
+- Colocando a font ROBOTO
+    *  Acessar o Google fonts, escolher os tipos de fontes e pegar o LINK e jogar abaixo do Title no Index.html dentro da pasta "public"
