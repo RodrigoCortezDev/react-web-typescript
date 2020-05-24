@@ -9,3 +9,7 @@
 
 - Instalando o Pretier (formatador de codigo)
     -> yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+
+- Instalando manipulador de rotas
+    -> yarn add react-router-dom
+    -> yarn add @types/react-router-dom
