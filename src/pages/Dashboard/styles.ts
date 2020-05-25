@@ -1,12 +1,6 @@
 import styled, { css } from 'styled-components';
 import { shade } from 'polished';
-
-// INTERFACES
-// Interface para ser usada pois todo parametro extra que precisa criar
-// pra trazer algum dado da pagina aqu pro estilo precisa ter interface
-interface FormProps {
-    hasError: boolean;
-}
+import { FormProps } from './interfaces';
 
 // ESTILOS
 export const Title = styled.h1`

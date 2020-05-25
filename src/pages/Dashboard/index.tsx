@@ -2,17 +2,9 @@ import React, { useState, FormEvent, useEffect } from 'react';
 import { FiChevronRight } from 'react-icons/fi';
 import api from '../../services/api';
 
-import { Title, Form, Repositories, Error } from './styles';
 import logoImg from '../../assets/logo.svg';
-
-interface Repository {
-    full_name: string;
-    description: string;
-    owner: {
-        login: string;
-        avatar_url: string;
-    };
-}
+import { Repository } from './interfaces';
+import { Title, Form, Repositories, Error } from './styles';
 
 const Dashboard: React.FC = () => {
     const [newRep, setNewRepo] = useState('');
