@@ -26,3 +26,6 @@
 
 - Icones no React web
     -> yarn add react-icons
+
+- Instalando a API que vai fazer requisições de serviços.
+    -> yarn add axios

@@ -29,7 +29,7 @@
         "prettier"
     ],
     "rules": {
-        "indent": ["error", 4], // Indent with 4 spaces
+        "indent": "off",// ["error", 4], // Indent with 4 spaces
         "react/jsx-indent": ["error", 4], // Indent JSX with 4 spaces
         "react/jsx-indent-props": ["error", 4], // Indent props with 4 spaces
         "prettier/prettier": "error",
@@ -37,6 +37,13 @@
         "react-hooks/exhaustive-deps": "warn",
         "react/jsx-filename-extension": [1,{"extensions": [".tsx"]} ],
         "import/prefer-default-export": "off",
+        "@typescript-eslint/camelcase": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "camelcase": "off",
+        "@typescript-eslint/explicit-function-return-type": [
+            "error",
+            { "allowExpressions" : true }
+        ],
         "import/extensions": [
             "error",
             "ignorePackages",
